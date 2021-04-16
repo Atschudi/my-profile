@@ -1,0 +1,136 @@
+img { 
+ border-radius: 50%;
+ width: 100px;
+} 
+
+body {
+	background-color: rgb(230, 230, 230) ; 
+	color: rgb (30,30,30)
+	font-family: helvetica;
+	font-size: 17px;
+	text-align: center;
+	list-style: none;
+
+}
+
+p{
+	font-family: 'Open Sans', sans-serif;
+	color: grey;
+}
+
+h1, h2 {
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+	color: blue;
+	font-size: 40px;
+	text-align: center;
+
+}
+
+h2 {
+	color: rgb(100, 100, 100);
+	font-size: 25px;
+	text-align: center;
+}
+.links{
+	list-style: none;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing:  15px;
+}
+
+.intro {
+	padding-bottom: 15px;
+}
+
+.button {
+	background: blue;
+	color: white;
+	font-size: 20px;
+	padding: 15px 20px;
+	text-align: center;
+	border-radius: 5px;
+	text-decoration: none;
+
+
+
+}
+
+.button:hover {
+	background: black;
+	color: white;
+
+
+}
+
+a:hover {
+	color: black;
+}
+
+
+.card {
+	background: white;
+	border: 2px solid black;
+	margin: 10px auto;
+	width: 860px;
+	height: 370px;
+	border-radius: 5px;
+	box-shadow: 2px 2px 3px;
+
+}
+
+.card-2 {
+	background: white;
+	border: 2px solid black;
+	margin: 10px auto;
+	width: 860px;
+	border-radius: 5px;
+	box-shadow: 2px 2px 3px;
+	}
+
+
+@media (max-width: 860px){
+.card {
+	width: 700px;
+	}
+}
+@media (max-width: 860px){
+.card-2 {
+	width: 700px;
+	}
+}
+
+@media (max-width: 720px){
+.card {
+	width: 500px;
+	}
+.button {
+	margin-bottom: 40px;
+}
+}
+@media (max-width: 720px){
+.card-2 {
+	width: 500px;
+	}
+}
+
+@media (max-width: 540px){
+.card {
+	width: 400px;
+	}
+}
+@media (max-width: 540px){
+.card-2 {
+	width: 400px;
+	}
+}
+
+ul {
+/*list-style: none;*/
+padding-inline-start: 0px;
+}
+
+
